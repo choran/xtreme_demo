@@ -33,3 +33,20 @@ And finally, run this in the root of the project to download the remaining datas
 ```
 bash scripts/download_data.sh
 ```
+
+# Troubleshooting
+If you have any issues you should try and download the individual dataseset and see what the issue is. <br>
+In the [download script](https://github.com/google-research/xtreme/blob/master/scripts/download_data.sh) you can see the tasks called at the end: <br>
+```
+download_xnli
+download_pawsx
+download_tatoeba
+download_bucc18
+download_squad
+download_xquad
+download_mlqa
+download_tydiqa
+download_udpos
+download_panx
+```
+So try working through these one by one and see where the issues is. <br>
